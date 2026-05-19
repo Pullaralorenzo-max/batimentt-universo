@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Bâtiment | Rénovation & Construction</title>
+    <!-- Intégration de Tailwind CSS pour le design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- BARRE DE NAVIGATION -->
+    <nav class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center">
+                    <span class="text-2xl font-black tracking-wider text-amber-500">UNIVERSO <span class="text-white">BÂTIMENT</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8 font-medium">
+                        <a href="#accueil" class="hover:text-amber-500 transition-colors">Accueil</a>
+                        <a href="#services" class="hover:text-amber-500 transition-colors">Nos Services</a>
+                        <a href="#realisations" class="hover:text-amber-500 transition-colors">Avant / Après</a>
+                        <a href="#contact" class="hover:text-amber-500 transition-colors">Contact</a>
+                        <a href="#contact" class="bg-amber-500 text-slate-900 px-5 py-2.5 rounded-lg font-bold hover:bg-amber-400 transition-all shadow-lg shadow-amber-500/20">Demander un Devis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION ACCUEIL (HERO) -->
+    <!-- Correction du chemin : batiment/logo.jpg -->
+    <section id="accueil" class="relative bg-slate-800 text-white py-32 px-4 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('batiment/logo.jpg');">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+            <span class="text-amber-500 font-bold tracking-widest uppercase text-sm bg-amber-500/10 px-4 py-1.5 rounded-full border border-amber-500/20">Votre partenaire de confiance</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">Confiez vos travaux à des experts passionnés</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">Du plafonnage aux finitions de votre salle de bain, Universo Bâtiment réalise vos projets de rénovation de A à Z avec une garantie de qualité.</p>
+            <div class="pt-4">
+                <a href="#contact" class="inline-block bg-amber-500 text-slate-900 text-lg font-bold px-8 py-4 rounded-xl hover:bg-amber-400 transition-all transform hover:-translate-y-1 shadow-xl shadow-amber-500/20">Obtenir mon devis gratuit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SERVICES -->
+    <section id="services" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-950">Nos Domaines d'Expertise</h2>
+            <div class="h-1 w-20 bg-amber-500 mx-auto rounded"></div>
+            <p class="text-gray-600">Nous mettons notre savoir-faire au service de votre habitation pour des prestations soignées et durables.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Service 1: Plafonnage -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
+                <div class="w-14 h-14 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-amber-500 group-hover:text-white transition-all">
+                    <i class="fa-solid font-black fa-trowel"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Plafonnage</h3>
+                <p class="text-gray-600 leading-relaxed">Murs et plafonds parfaitement lisses. Préparation méticuleuse des surfaces pour des finitions impeccables.</p>
+            </div>
+
+            <!-- Service 2: Chape -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
+                <div class="w-14 h-14 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-amber-500 group-hover:text-white transition-all">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Chape</h3>
+                <p class="text-gray-600 leading-relaxed">Coulage de chapes fluides ou traditionnelles, assurant une isolation et une planéité parfaites pour vos sols.</p>
+            </div>
+
+            <!-- Service 3: Salle de bain -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
+                <div class="w-14 h-14 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-amber-500 group-hover:text-white transition-all">
+                    <i class="fa-solid fa-shower"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Salle de bain</h3>
+                <p class="text-gray-600 leading-relaxed">Rénovation clé en main de votre salle de bain : plomberie, aménagement, douche à l'italienne et mobilier.</p>
+            </div>
+
+            <!-- Service 4: Carrelage -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
+                <div class="w-14 h-14 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-amber-500 group-hover:text-white transition-all">
+                    <i class="fa-solid fa-border-all"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Carrelage</h3>
+                <p class="text-gray-600 leading-relaxed">Pose de carrelage intérieur et extérieur, faïences et grands formats avec une précision chirurgicale.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION AVANT / APRÈS -->
+    <section id="realisations" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl font-bold">Avant / Après nos travaux</h2>
+                <div class="h-1 w-20 bg-amber-500 mx-auto rounded"></div>
+                <p class="text-gray-400">Cliquez sur les boutons pour constater la transformation de nos chantiers.</p>
+            </div>
+
+            <!-- Système d'onglets pour voir les projets -->
+            <div class="flex justify-center space-x-4 mb-12">
+                <button onclick="switchProject('projet1')" id="btn-projet1" class="px-6 py-2 rounded-full font-semibold transition-all bg-amber-500 text-slate-900">Projet façade</button>
+                <button onclick="switchProject('projet2')" id="btn-projet2" class="px-6 py-2 rounded-full font-semibold transition-all bg-slate-800 text-gray-300 hover:bg-slate-700">Projet chape et carrelage extérieur</button>
+            </div>
+
+            <!-- Conteneurs Images (Correction des chemins de dossiers) -->
+            <div class="max-w-5xl mx-auto bg-slate-800 p-4 rounded-3xl border border-slate-700 shadow-2xl">
+                <!-- Projet 1 -->
+                <div id="projet1" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="relative rounded-2xl overflow-hidden h-80">
+                        <img src="batiment/avant.jpg" alt="Avant travaux" class="w-full h-full object-cover grayscale brightness-75">
+                        <span class="absolute top-4 left-4 bg-red-600 text-white font-bold px-4 py-1 rounded-md text-xs uppercase tracking-wider">Avant</span>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden h-80">
+                        <!-- Attention : vérifiez si le fichier s'appelle après.jpg ou apres.jpg (évitez les accents sur le web) -->
+                        <img src="batiment/apres.jpg" alt="Après travaux" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white font-bold px-4 py-1 rounded-md text-xs uppercase tracking-wider">Après</span>
+                    </div>
+                </div>
+
+                <!-- Projet 2 (Caché au départ) -->
+                <div id="projet2" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
+                    <div class="relative rounded-2xl overflow-hidden h-80">
+                        <img src="batiment/shape.jpg" alt="Avant carrelage" class="w-full h-full object-cover grayscale brightness-50">
+                        <span class="absolute top-4 left-4 bg-red-600 text-white font-bold px-4 py-1 rounded-md text-xs uppercase tracking-wider">Avant</span>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden h-80">
+                        <img src="batiment/carrelage.jpg" alt="Après carrelage" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white font-bold px-4 py-1 rounded-md text-xs uppercase tracking-wider">Après</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT & DEVIS -->
+    <section id="contact" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
+            
+            <!-- Infos de gauche -->
+            <div class="lg:col-span-2 space-y-8">
+                <div class="space-y-4">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-950">Un projet ? Parlons-en !</h2>
+                    <p class="text-gray-600">Remplissez le formulaire. Notre équipe étudiera votre demande et vous recontactera par téléphone sous 48 heures pour fixer un rendez-vous ou vous transmettre un devis.</p>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <p class="text-sm text-gray-500 font-medium">Appelez-nous</p>
+                            <p class="text-lg font-bold text-slate-900">+33 (0)1 23 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <p class="text-sm text-gray-500 font-medium">E-mail</p>
+                            <p class="text-lg font-bold text-slate-900">contact@universo-batiment.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulaire de droite -->
+            <div class="lg:col-span-3 bg-white p-8 md:p-10 rounded-3xl shadow-xl shadow-slate-200/50 border border-gray-100">
+                <form action="https://formspree.io/f/xlgvdqqa" method="POST" class="space-y-6">
+                    
+                    <input type="hidden" name="_next" value="https://votre-site.com">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Nom complet *</label>
+                            <input type="text" name="Nom" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all" placeholder="Jean Dupont">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Numéro de téléphone *</label>
+                            <input type="tel" name="Telephone" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all" placeholder="06 12 34 56 78">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Adresse e-mail</label>
+                        <input type="email" name="Email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all" placeholder="jean.dupont@email.com">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Type de travaux souhaités</label>
+                        <select name="Type_Travaux" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all bg-white">
+                            <option>Demande de devis global</option>
+                            <option>Plafonnage</option>
+                            <option>Chape</option>
+                            <option>Rénovation Salle de bain</option>
+                            <option>Pose de Carrelage</option>
+                            <option>Autre projet</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Description de votre projet</label>
+                        <textarea name="Message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all" placeholder="Décrivez brièvement les travaux à réaliser (surface en m², délais...)"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-amber-500 text-slate-900 font-bold text-lg py-4 rounded-xl hover:bg-amber-400 transition-all shadow-lg shadow-amber-500/20 flex items-center justify-center space-x-2 cursor-pointer">
+                        <span>Envoyer ma demande de rappel</span>
+                        <i class="fa-solid fa-paper-plane text-sm"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE (FOOTER) -->
+    <footer class="bg-slate-950 text-gray-500 py-8 border-t border-slate-900 text-center text-sm">
+        <p>&copy; 2026 Universo Bâtiment. Tous droits réservés. Réalisé avec rigueur.</p>
+    </footer>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script>
+        function switchProject(projectId) {
+            document.getElementById('projet1').classList.add('hidden');
+            document.getElementById('projet2').classList.add('hidden');
+            
+            document.getElementById('btn-projet1').className = "px-6 py-2 rounded-full font-semibold transition-all bg-slate-800 text-gray-300 hover:bg-slate-700";
+            document.getElementById('btn-projet2').className = "px-6 py-2 rounded-full font-semibold transition-all bg-slate-800 text-gray-300 hover:bg-slate-700";
+
+            document.getElementById(projectId).classList.remove('hidden');
+            document.getElementById('btn-' + projectId).className = "px-6 py-2 rounded-full font-semibold transition-all bg-amber-500 text-slate-900";
+        }
+    </script>
+</body>
+</html>
